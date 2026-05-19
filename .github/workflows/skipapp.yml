@@ -31,6 +31,4 @@ jobs:
           ./skipapp-ahoy-repo/scripts/diff_template.sh skipapp-ahoy skipapp-ahoy-repo
   call-workflow:
     uses: skiptools/actions/.github/workflows/skip-app.yml@v1
-    with:
-      run-local-tests: false
 
